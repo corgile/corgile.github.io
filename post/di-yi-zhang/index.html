@@ -1,98 +1,105 @@
-
-<!DOCTYPE html>
 <html>
   <head>
-    
-<meta charset="utf-8" >
-
+    <meta charset="utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
 <title>第一章 | Gridea</title>
-<meta name="description" content="温故而知新">
-
-<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.0/animate.min.css">
-
-<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
-<link rel="shortcut icon" href="https://corgile.github.io/favicon.ico?v=1591269329053">
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/KaTeX/0.10.0/katex.min.css">
+<link rel="shortcut icon" href="https://corgile.github.io/favicon.ico?v=1591271331441">
+<link href="https://cdn.jsdelivr.net/npm/remixicon@2.3.0/fonts/remixicon.css" rel="stylesheet">
 <link rel="stylesheet" href="https://corgile.github.io/styles/main.css">
-
-
-  
-    <link rel="stylesheet" href="https://unpkg.com/gitalk/dist/gitalk.css" />
-  
-
-  
-
-
-<script src="https://cdn.jsdelivr.net/npm/vue/dist/vue.js"></script>
-<script src="https://cdn.bootcss.com/highlight.js/9.12.0/highlight.min.js"></script>
+<link rel="alternate" type="application/atom+xml" title="第一章 | Gridea - Atom Feed" href="https://corgile.github.io/atom.xml">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Droid+Serif:400,700">
 
 
 
+    <meta name="description" content="概述
+[TOC]
+基本特点
+连通性：上网用户之间都可以进行信息交换，仿佛各个用户彼此连通
+共享性：资源共享（软硬件，信息，数据等）
+概念澄清
+
+
+互连网 internet：是一个通用名词，它泛指由多个计算机网络互连而成的网络。
+
+
+互联网 ..." />
+    <meta name="keywords" content="" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/KaTeX/0.10.0/katex.min.css">
+    <script src="https://cdn.bootcss.com/highlight.js/9.12.0/highlight.min.js"></script>
   </head>
   <body>
-    <div id="app" class="main">
-      <div class="site-header-container">
-  <div class="site-header">
-    <div class="left">
-      <a href="https://corgile.github.io">
-        <img class="avatar" src="https://corgile.github.io/images/avatar.png?v=1591269329053" alt="" width="32px" height="32px">
-      </a>
-      <a href="https://corgile.github.io">
-        <h1 class="site-title">Gridea</h1>
-      </a>
-    </div>
-    <div class="right">
-      <transition name="fade">
-        <i class="icon" :class="{ 'icon-close-outline': menuVisible, 'icon-menu-outline': !menuVisible }" @click="menuVisible = !menuVisible"></i>
-      </transition>
-    </div>
+    <div class="main">
+      <div class="main-content">
+        <div class="site-header">
+  <a href="https://corgile.github.io">
+  <img class="avatar" src="https://corgile.github.io/images/avatar.png?v=1591271331441" alt="">
+  </a>
+  <h1 class="site-title">
+    Gridea
+  </h1>
+  <p class="site-description">
+    温故而知新
+  </p>
+  <div class="menu-container">
+    
+      
+        <a href="/" class="menu">
+          首页
+        </a>
+      
+    
+      
+        <a href="/archives" class="menu">
+          归档
+        </a>
+      
+    
+      
+        <a href="/tags" class="menu">
+          标签
+        </a>
+      
+    
+      
+        <a href="/post/about" class="menu">
+          关于
+        </a>
+      
+    
+  </div>
+  <div class="social-container">
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
   </div>
 </div>
 
-<transition name="fade">
-  <div class="menu-container" style="display: none;" v-show="menuVisible">
-    <div class="menu-list">
-      
-        
-          <a href="/" class="menu purple-link">
-            首页
-          </a>
-        
-      
-        
-          <a href="/archives" class="menu purple-link">
-            归档
-          </a>
-        
-      
-        
-          <a href="/tags" class="menu purple-link">
-            标签
-          </a>
-        
-      
-        
-          <a href="/post/about" class="menu purple-link">
-            关于
-          </a>
-        
-      
-    </div>
-  </div>
-</transition>
-
-
-      <div class="content-container">
         <div class="post-detail">
-          
-          <h2 class="post-title">第一章</h2>
-          <div class="post-info post-detail-info">
-            <span><i class="icon-calendar-outline"></i> 2020-06-04</span>
+          <article class="post">
+            <h2 class="post-title">
+              第一章
+            </h2>
+            <div class="post-info">
+              <span>
+                2020-06-04
+              </span>
+              <span>
+                13 min read
+              </span>
+              
+            </div>
             
-          </div>
-          <div class="post-content">
-            <h1 id="概述">概述</h1>
+            <div class="post-content-wrapper">
+              <div class="post-content">
+                <h1 id="概述">概述</h1>
 <p>[TOC]</p>
 <h2 id="基本特点">基本特点</h2>
 <p>连通性：上网用户之间都可以进行信息交换，仿佛各个用户彼此连通</p>
@@ -400,86 +407,140 @@ D --&gt; J(校园网)
 </ul>
 <p>公用网和专用网都可以提供多种服务。如传送的是计算 机数据，则分别是公用计算机网络和专用计算机网络</p>
 
-          </div>
+              </div>
+              <div class="toc-container">
+                <ul class="markdownIt-TOC">
+<li><a href="#%E6%A6%82%E8%BF%B0">概述</a>
+<ul>
+<li><a href="#%E5%9F%BA%E6%9C%AC%E7%89%B9%E7%82%B9">基本特点</a>
+<ul>
+<li><a href="#%E6%A6%82%E5%BF%B5%E6%BE%84%E6%B8%85">概念澄清</a></li>
+<li><a href="#%E5%8F%91%E5%B1%95%E9%98%B6%E6%AE%B5">发展阶段</a></li>
+</ul>
+</li>
+<li><a href="#%E4%BA%92%E8%BF%9E%E7%BD%91%E7%BB%84%E6%88%90">互连网组成</a>
+<ul>
+<li><a href="#%E8%BE%B9%E7%BC%98%E9%83%A8%E5%88%86%E4%B8%8E%E6%A0%B8%E5%BF%83%E9%83%A8%E5%88%86">边缘部分与核心部分</a></li>
+<li><a href="#%E6%A0%B8%E5%BF%83%E9%83%A8%E5%88%86">核心部分</a></li>
+</ul>
+</li>
+<li><a href="#%E6%80%A7%E8%83%BD%E6%8C%87%E6%A0%87">性能指标</a>
+<ul>
+<li><a href="#%E6%98%93%E9%94%99%E6%A6%82%E5%BF%B5">易错概念</a></li>
+</ul>
+</li>
+<li><a href="#%E4%BD%93%E7%B3%BB%E7%BB%93%E6%9E%84">体系结构</a>
+<ul>
+<li><a href="#%E5%88%86%E5%B1%82%E7%9A%84%E6%8F%90%E5%87%BA">分层的提出</a></li>
+<li><a href="#%E7%BD%91%E7%BB%9C%E4%BD%93%E7%B3%BB%E7%BB%93%E6%9E%84">网络体系结构</a></li>
+<li><a href="#%E5%B0%81%E8%A3%85">封装</a></li>
+<li><a href="#%E7%BD%91%E7%BB%9C%E5%8D%8F%E8%AE%AE">网络协议</a></li>
+<li><a href="#%E4%BD%93%E7%B3%BB%E7%BB%93%E6%9E%84%E7%9A%84%E4%B8%A4%E7%A7%8D%E6%A0%87%E5%87%86">体系结构的两种标准</a></li>
+</ul>
+</li>
+<li><a href="#%E8%AE%A1%E7%AE%97%E6%9C%BA%E7%BD%91%E7%BB%9C%E7%9A%84%E7%B1%BB%E5%88%AB">计算机网络的类别</a>
+<ul>
+<li><a href="#%E8%AE%A1%E7%AE%97%E6%9C%BA%E7%BD%91%E7%BB%9C%E7%9A%84%E5%AE%9A%E4%B9%89">计算机网络的定义</a></li>
+<li><a href="#%E5%87%A0%E7%A7%8D%E4%B8%8D%E5%90%8C%E7%B1%BB%E5%88%AB%E7%9A%84%E7%BD%91%E7%BB%9C">几种不同类别的网络</a></li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+
+              </div>
+            </div>
+          </article>
         </div>
 
         
           <div class="next-post">
-            <a class="purple-link" href="https://corgile.github.io/post/hello-gridea/">
+            <div class="next">下一篇</div>
+            <a href="https://corgile.github.io/post/hello-gridea/">
               <h3 class="post-title">
-                下一篇：Hello Gridea
+                Hello Gridea
               </h3>
             </a>
           </div>
+        
+
+        
           
-      </div>
+            <link rel="stylesheet" href="https://unpkg.com/gitalk/dist/gitalk.css">
+<script src="https://unpkg.com/gitalk/dist/gitalk.min.js"></script>
 
-      
-        
-          <div id="gitalk-container"></div>
-        
+<div id="gitalk-container"></div>
 
-        
-      
+<script>
 
-      <div class="site-footer">
-  <div class="slogan">温故而知新</div>
-  <div class="social-container">
-    
-      
-    
-      
-    
-      
-    
-      
-    
-      
-    
-  </div>
-  Powered by <a href="https://github.com/getgridea/gridea" target="_blank">Gridea</a> | <a class="rss" href="https://corgile.github.io/atom.xml" target="_blank">RSS</a>
-</div>
+  var gitalk = new Gitalk({
+    clientID: '',
+    clientSecret: '',
+    repo: 'corgile',
+    owner: '',
+    admin: [''],
+    id: (location.pathname).substring(0, 49),      // Ensure uniqueness and length less than 50
+    distractionFreeMode: false  // Facebook-like distraction free mode
+  })
 
-
-    </div>
-    <script type="application/javascript">
-
-hljs.initHighlightingOnLoad()
-
-var app = new Vue({
-  el: '#app',
-  data: {
-    menuVisible: false,
-  },
-})
+  gitalk.render('gitalk-container')
 
 </script>
 
+          
 
+          
+        
 
-  
-    <script src="https://unpkg.com/gitalk/dist/gitalk.min.js"></script>
+        <div class="site-footer">
+  Powered by <a href="https://github.com/getgridea/gridea" target="_blank">Gridea</a>
+  <a class="rss" href="https://corgile.github.io/atom.xml" target="_blank">
+    <i class="ri-rss-line"></i> RSS
+  </a>
+</div>
+
+      </div>
+    </div>
+
     <script>
+      hljs.initHighlightingOnLoad()
 
-      var gitalk = new Gitalk({
-        clientID: '',
-        clientSecret: '',
-        repo: 'corgile',
-        owner: '',
-        admin: [''],
-        id: (location.pathname).substring(0, 49),      // Ensure uniqueness and length less than 50
-        distractionFreeMode: false  // Facebook-like distraction free mode
-      })
+      let mainNavLinks = document.querySelectorAll(".markdownIt-TOC a");
 
-      gitalk.render('gitalk-container')
+      // This should probably be throttled.
+      // Especially because it triggers during smooth scrolling.
+      // https://lodash.com/docs/4.17.10#throttle
+      // You could do like...
+      // window.addEventListener("scroll", () => {
+      //    _.throttle(doThatStuff, 100);
+      // });
+      // Only not doing it here to keep this Pen dependency-free.
+
+      window.addEventListener("scroll", event => {
+        let fromTop = window.scrollY;
+
+        mainNavLinks.forEach((link, index) => {
+          let section = document.getElementById(decodeURI(link.hash).substring(1));
+          let nextSection = null
+          if (mainNavLinks[index + 1]) {
+            nextSection = document.getElementById(decodeURI(mainNavLinks[index + 1].hash).substring(1));
+          }
+          if (section.offsetTop <= fromTop) {
+            if (nextSection) {
+              if (nextSection.offsetTop > fromTop) {
+                link.classList.add("current");
+              } else {
+                link.classList.remove("current");    
+              }
+            } else {
+              link.classList.add("current");
+            }
+          } else {
+            link.classList.remove("current");
+          }
+        });
+      });
 
     </script>
-  
-
-  
-
-
-
-
   </body>
 </html>
